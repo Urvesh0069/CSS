@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* header */
+
+.main-header{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.mini-header{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.logo-nev{
+    width: 50%;
+    height: 80%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    margin-top: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo-nev img{
+    width: 136px;
+    height: 22px;
+}
+
+.logo-nev ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 70px;
+
+}
+
+.logo-nev ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.logo-nev ul li{
+    margin-left: 60px;
+    transition: all 0.5s ease-in-out;
+}
+
+.surch-nav{
+    width: 50%;
+    height: 80%;
+    /* border: 1px solid rgb(0, 0, 255); */
+    margin-top: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.surch{
+    height: 38px;
+    width: 240px;
+    margin-left: 150px;
+    display: flex;
+    border: 0.50px solid black;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.surch input{
+    border: none;
+    height: 34px;
+    outline: none;
+    
+}
+
+.surch i{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.location{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.location ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 60px;
+    transition: color 1s ease;
+}
+
+.location ul:hover{
+    color: rgba(255, 0, 0, 0.8);
+}
+
+.location ul li{
+    margin-left: 30px;
+    /* color: rgba(0, 0, 0, 0.6); */
+    font-size: 26px;
+    transition: color 1s ease;
+}
+
+.location ul li:hover{
+    color: rgba(255, 0, 0, 0.8);
+    
+}
+
+/* section-01 */
+.ad-post{
+    width: 2024vh;
+    height: 400px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    background-image: url(https://imgd.aeplcdn.com/0x0/cw/static/landing-banners/homepage-d-2021.jpg?v=19042022);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.ad-post h1{
+    color: #ffffff;
+    font-size: 32px;
+    margin-left: 80vh;
+    margin-top: 80px;
+    transition: color 1s ease;
+}
+
+.ad-post h1:hover{
+    color: rgba(255, 0, 0, 0.8);
+    cursor: pointer;
+    
+}
+
+/* section-02 */
+
+.brands{
+    margin-top: 40px;
+    width: 100%;
+    /* border: 1px solid rgb(0, 0, 255); */
+    align-items: center;
+}
+
+.tag{
+    height: 60px;
+    width: 150px;
+    /* border: 1px solid black; */
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90vh;
+}
+
+.brand-list{
+    /* height: 200px; */
+    width: 90%;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    margin-top: 20px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand-img{
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    align-items: center;
+    justify-items: center;
+}
+
+.brand-img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+
+.brand-img img{
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* .brand-img img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
+.brand-img h4{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* section-03 */
+
+.top-cars{
+    margin-top: 80px;
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    justify-content: space-around;
+}
+
+.car-box{
+    margin-top: 10px;
+    width: 70%;
+    height: 95%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.car-img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid rgb(90, 85, 85);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.car-img:hover{
+    /* opacity: 0.8; */
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: beige;
+}
+
+.car-img img{
+    width: 100%;
+    height: 70%;
+    margin-bottom: 10px;
+}
+
+.car-img h3{
+    margin-left: 20%;
+}
+
+.car-img p{
+    margin-top: 7px;
+    margin-left: 20%;
+}
+
+/* section-04 */
+
+.submit{
+    margin-top: 70px;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://imgd.aeplcdn.com/0x0/cw/static/landing-banners/get-final-price-banner.jpg);
+}
+
+
+.form{
+    width: 20%;
+    height: 80%;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 150px;
+    margin-top: 50px;
+    line-height: 40px;
+    position: relative;
+    box-shadow: 0 10px 10px rgba(0,0,0,1);
+    padding: 10px;
+}
+
+.form h1{
+    position: absolute;
+    top: 50px;
+    left: 20%;
+    color: white;
+}
+
+.form input{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+.form button{
+    position: absolute;
+    bottom: 40px;
+    width: 90%;
+    height: 30px;
+    left: 18px;
+    border-radius: 10px;
+    border: none !important;
+}
